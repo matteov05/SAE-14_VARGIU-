@@ -1,0 +1,135 @@
+body{
+    background-image: url(ciel.png);
+    background-attachment: fixed;
+}
+main{
+display: flex;
+width: 80%;
+flex-wrap: wrap;
+margin: 0px auto;
+}
+
+
+h1{
+    background-color: rgba(0, 0, 255, 0.54);
+    padding: 1%;
+    flex-basis: 100%;
+    text-align: center;
+    border-radius: 50px;
+    font: 36px calibri; 
+    
+}
+
+p{
+    text-align: justify;
+    font: 30px calibri;
+
+}
+.masection{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.masectionaccueil{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.masectionaccueil article {
+    background-color: rgba(92, 170, 233, 0.425);
+    flex-basis: 100%;
+    padding: 1%;
+    border-radius: 15px;
+    border-style: solid;
+
+}
+.masection article {
+    background-color: rgba(92, 170, 233, 0.425);
+    flex-basis: 48%;
+    margin: 1%;
+    border-radius: 15px;
+    
+
+}
+.masection article header{
+    font-size: 120%;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    border-right: solid 1px rgb(0, 0, 0);
+    border-left: solid 1px rgb(0, 0, 0);
+    border-top: solid 1px rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(222, 128, 143, 0.437);
+    width: 100%;
+    border-radius: 15px;
+    font: 34px calibri;
+}
+.masectioninteret{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+.bouton{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.masectioninteret article {
+    background-color: rgba(92, 170, 233, 0.425);
+    flex-basis: 100%;
+    border-radius: 15px;
+
+    
+
+}
+img {
+    max-width : 100%;
+    height : auto;
+    padding: 4px;
+    
+    
+    }
+.masectioninteret article header{
+    font-size: 120%;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    border-right: solid 1px rgb(0, 0, 0);
+    border-left: solid 1px rgb(0, 0, 0);
+    border-top: solid 1px rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(222, 128, 143, 0.437);
+    align-self: flex-start;
+    width: 100%;
+    border-radius: 15px;
+    font: 34px calibri;
+    
+}
+
+button 
+{
+
+ padding: 8px;
+ font: 25px calibri;
+ color: white;
+ background-color: black;
+ border: none;
+ border-radius: 20px;
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ box-shadow: 0px 5px 7.5px rgba(0, 0, 255, 0.54);
+}
+button:hover 
+{
+ background-color: #ffffff;
+ box-shadow: 0px 7.5px 10px rgba(0, 0, 255, 0.54);
+ color: #000000;
+ transform: translateY(-7px);
+}
+button:active 
+{
+ transform: translateY(-1px);
+}
